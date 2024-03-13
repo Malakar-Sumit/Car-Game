@@ -1,0 +1,220 @@
+/*** GLOBAL SETTING ***/
+body {margin:0; padding:0;font:normal 13px 'Orbitron', sans-serif; color:#5b5b5b; line-height:normal;}
+
+/*font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif; */
+img{max-width: 100%; width: auto; height: auto;}
+.btn a{font-size: 18px; font-weight: 400; display: inline-block; letter-spacing: 2px; background: #000; color: #fff; transition: .2s linear;}
+.btn a:hover{background: #081a2c; color: #09d5e8;}
+
+.container{max-width:min(1290px, 96%); width: auto; margin: 0 auto;}
+.sm-cont{max-width:min(1170px, 96%); width: auto; margin: 0 auto;}
+.headertop{position: absolute; left: 0; right: 0; padding: 30px 0; z-index: 1;}
+.headertop .logo{display: inline-block; vertical-align: middle;}
+.headertop .logo a{font-size:25px; color:#fff; font-weight:400; line-height:26px; display:block; letter-spacing: 2px;}
+.headertop .togglemenu{float: right; display: inline-block; vertical-align: middle; padding: 13px 0 13px 13px; position:relative;}
+.headertop .togglemenu span{width:27px; height:4px; display:block; background: #fff; }
+.headertop .togglemenu span::before{content:""; position:absolute; background: #fff; width: 40px; height: 4px; right: 0; top:0;}
+.headertop .togglemenu span::after{content:""; position:absolute; background: #fff; width: 40px; height: 4px; right: 0; bottom:0;}
+
+.banner .container{position: relative;}
+.banner{background: url(../images/banner-bg.jpg) no-repeat center; padding-top:150px; text-align:center; position:relative; background-size:cover;}
+.banner::before{content:''; background: #09d5e8; position: absolute; left: 0; right: 0; top: 0; bottom: 0; opacity: .58;}
+.banner h2{font-size: 94px; font-weight: 400; color: #fff; display: inline-block; letter-spacing: 2px;}
+.banner p{font-size: 18px; font-weight: 400; color: #fff;  font-family: 'Poppins', sans-serif;  display: inline-block;}
+.banner .Downloadbtn{margin-top: 40px;}
+.banner .Downloadbtn a{padding:15px 40px;}
+.banner .bannerimg{display: inline-block; margin-top: 100px; background-size: contain;  filter: drop-shadow(0px 1px 10px #fff); margin-bottom: -20px;}
+
+.sliderpattern{background: #081a2c; padding: 20px 0; font-size: 0;}
+.sliderpattern p{font-size: 25px; font-weight: 400; color: #fff; display: inline-block; vertical-align: middle;}
+.sliderpattern ul{display: inline-block; width: calc(100% - 74px); text-align: center;}
+.sliderpattern ul li{display: inline-block; padding: 10px; background: #fff; border-radius: 50%; vertical-align: middle; margin-left: 20px;}
+.sliderpattern ul li.mid{background: #09d5e8;}
+
+.contentwrap{background: url(../images/about-bg.jpg) no-repeat top center; background-size: cover; position: relative; padding: 100px 0 150px;}
+.contentwrap::before{content:''; position: absolute; background: #09d5e8; left: 0; right: 0; bottom: 0; top: 0; opacity: .58;}
+.about{padding-bottom: 100px; position: relative;}
+.about .container{position: relative;}
+.about .aboutleft{display: inline-block; vertical-align: middle; width: 45%; text-align: center; padding: 50px 30px; border: 1px dashed #fff; border-radius: 5px;}
+.about .aboutleft h3{font-size: 30px; font-weight: 600; color: #fff; font-family: 'Poppins', sans-serif; }
+.about .aboutleft p{font-size: 18px; font-weight: 400; color: #fff; line-height: 26px; margin-top:25px; font-family: 'Poppins', sans-serif;}
+.about .aboutleft .readbtn{margin-top: 240px;}
+.about .aboutleft .readbtn a{padding: 10px 30px;}
+.about .aboutrgt{position: absolute; top: 55%; transform: translateY(-50%); right:0; display: inline-block; background-size: contain;}
+
+.form{padding: 80px 0; background: url(../images/HTP-bg.jpg) no-repeat top center; background-size: cover; position: relative; text-align: center;}
+.form::before{content:''; position: absolute; background: #111212; top: 0; bottom: 0; right: 0; left: 0; opacity: .78;}
+.form .container{position: relative;}
+.form h3{text-align: center; font-size:36px; font-weight:400; color:#fff; position:relative; display: inline-block; letter-spacing: 2px;}
+.form h3::before{content:''; position: absolute; background: #fff; width:50%; height:1px; left: 50%; transform: translateX(-50%); bottom: -10px;}
+.form .htpform{margin-top:65px; padding: 55px 30px; border: 1px dashed #fff; font-size: 0;}
+.form .htpform h4{font-size: 24px; font-weight: 400; color: #fff; text-align: left; letter-spacing: 2px;}
+.form .htpform ul.formleft{ width:43%; display:inline-block; vertical-align:top;}
+.form .htpform ul.formrgt{width:50%; display:inline-block; vertical-align:top; margin-left: 7%; counter-reset: number; text-align: left;}
+.form .htpform ul.formleft li{width: 100%; margin-top: 25px; text-align: left;}
+.form .htpform ul li input{min-width: 100%; background: #fff; box-sizing: border-box; border: none; padding: 16px; font-size: 18px; font-weight: 400; font-family: 'Poppins', sans-serif;} 
+.form .htpform ul li input::placeholder{color: #000;}
+.form .htpform .loginbtn{margin-top: 25px;}
+.form .htpform .loginbtn a{background: #09d5e8; padding: 18px 65px;}
+.form .htpform .loginbtn a:hover{background: #081a2c; color: #09d5e8;}
+.form .htpform ul.formrgt li{font-size: 18px; font-weight: 400; color: #fff; font-family: 'Poppins', sans-serif;  margin-top: 25px; padding-left: 50px; position: relative; line-height: 26px;}
+.form .htpform ul.formrgt li::before{counter-increment: number; content:"0"counter(number); position: absolute; font-weight: 400; font-size: 25px; color: #fff; font-family: 'Poppins', sans-serif;  left: 0;}
+
+.playsec{padding-top: 100px; text-align: center; position: relative;}
+.playsec h3{font-size:36px; font-weight: 400; color: #fff; position: relative; display: inline-block; letter-spacing: 2px;}
+.playsec h3::before{content:''; position: absolute; background: #fff; width:50%; height:1px; left: 50%; transform: translateX(-50%); bottom: -10px;}
+.playsec p{margin: 60px auto; font-size: 18px; font-weight: 400; color: #fff; font-family: 'Poppins', sans-serif; width: 80%;}
+.playsec ul{margin-top:50px ; font-size: 0;}
+.playsec ul li{display: inline-block; margin-left: 20px;}
+.playsec ul li a{font-size:18px; color: #fff; background: #000; font-weight: 400; padding: 18px 65px; transition: .2s; display: inline-block; letter-spacing: 2px;}
+.playsec ul li a:hover{background:#fff; color:#000;}
+
+.downloadsec{padding-top: 150px; position: relative;}
+.downloadsec .container{position: relative;}
+.downloadsec .downloadleft{width: 70%;}
+.downloadsec .downloadleft h2{font-size: 36px; font-weight: 400; color: #fff; letter-spacing: 2px;}
+.downloadsec .downloadleft p{font-size: 18px; font-weight:400; color: #fff; font-family: 'Poppins', sans-serif;margin-top:50px;}
+.downloadsec .downloadleft ul{margin-top: 50px; font-size: 0; margin-left: -3%;}
+.downloadsec .downloadleft ul li{display: inline-block; margin-left: 3%;}
+.downloadsec .downloadrgt{position: absolute; top: -20%; right: 0; background-size: contain;}
+
+.footersec{padding: 55px 0; text-align: center; background-color: #111212;}
+.footersec h2{font-size: 36px; font-weight: 400; color: #fff; letter-spacing: 2px;}
+.footersec ul.footernav{margin-top: 45px; font-size: 0;}
+.footersec ul.footernav li{display: inline-block;}
+.footersec ul.footernav li+li{ margin-left: 80px;}
+.footersec ul.footernav li a{font-size: 18px; font-weight: 400; color: #fff; transition: .2s; letter-spacing: 2px;} 
+.footersec ul.footernav li a:hover{color: #09d5e8;}
+.footersec h3{font-size: 22px; font-weight: 600; color: #fff; position: relative; letter-spacing: 2px; margin-top: 45px;}
+.footersec h3::before{content:''; position: absolute; background: #fff; width: 20%; height: 1px; bottom: -10px; left:50%; transform: translateX(-50%); }
+.footersec ul.footerform{display: inline-block; width: 20%; margin-top: 30px;}
+.footersec ul.footerform li{margin-top: 15px;}
+.footersec ul.footerform li input{width:100%; font-size:15px; font-weight:400; font-family:'Poppins', sans-serif; color:#fff; padding:7px 10px; background: transparent; border: 2px solid #fff; box-sizing: border-box;}
+.footersec ul.footerform li input::placeholder{color: #5b5b5b;}
+.footersec ul.footerform li button{width: 100%; padding: 7px; font-size:15px; font-weight:400; font-family:'Poppins', sans-serif; color:#fff; background: transparent; border:  2px solid #fff; box-sizing: border-box;}
+
+.footerbotm{background: #09d5e8; text-align: center; padding: 25px 0;}
+.footerbotm p{font-size: 18px; font-weight: 400; color: #fff; font-family: 'Poppins', sans-serif;}
+
+@media only screen and ( max-width: 1280px ) {
+}
+@media only screen and ( max-width: 1024px ) {
+    .banner h2{font-size: 84px;}
+    .about .aboutrgt{width: 90%;}
+    .playsec h3{font-size: 30px;}
+    .downloadsec .downloadleft{width: 60%;}
+    .downloadsec .downloadrgt{width: 50%;}
+}
+@media only screen and ( max-width: 980px ) {
+}
+@media only screen and ( max-width: 800px ) {
+    .banner{padding-top: 100px;}
+    .banner h2 {font-size: 54px;}
+    .banner .bannerimg{margin-top: 50px;}
+    .about .aboutleft{width: 50%; padding: 30px;}
+    .about .aboutleft .readbtn{margin-top: 180px;}
+    .about .aboutrgt{top: 60%;}
+    .contentwrap, .form{padding: 50px 0;}
+    .about{padding-bottom: 50px;}
+    .playsec{padding-top: 50px;}
+    .downloadsec {padding-top: 80px;}
+    .form .htpform{margin-top: 30px; padding: 30px;}
+    .form .htpform ul.formleft {width: 45%;}
+    .form .htpform ul.formrgt{margin-left: 5%;}
+    .form .htpform ul.formrgt li{font-size: 14px; padding-left: 30px; margin-top: 40px; line-height: normal;}
+    .form .htpform ul.formrgt li::before{font-size: 20px;}
+    .form .htpform .loginbtn a{padding: 10px 50px;}
+    .playsec h3 {font-size: 26px;}
+    .playsec p{margin: 50px auto; width: 90%;}
+    .playsec ul li a{padding: 10px 50px;}
+    .downloadsec .downloadleft {width: 50%;}
+    .downloadsec .downloadleft p {margin-top: 30px;}
+    .downloadsec .downloadleft ul{margin-top: 30px;}
+    .downloadsec .downloadleft ul li{width: 47%;}
+    .footersec ul.footernav li+li{margin-left: 60px;}
+    .footersec ul.footernav li a{font-size: 14px;}
+    .footersec h3::before, .footersec ul.footerform{width: 35%;}
+    
+}
+@media only screen and ( max-width: 768px ) {
+}
+@media only screen and ( max-width: 736px ) {
+}
+@media only screen and ( max-width: 667px ) {
+    .form .htpform ul.formleft{width: 100%;}
+    .form .htpform ul.formrgt {width: 100%; margin-left: 0;}
+    .form .htpform ul.formrgt li{font-size: 18px; margin-top: 25px; padding-left: 50px;}
+    .form .htpform ul.formrgt li::before {font-size: 25px;}
+    .playsec p{margin:30px auto;}
+    .playsec ul li a {font-size: 16px; padding: 10px 30px;}
+    .downloadsec .downloadleft h2{font-size: 28px}
+    .downloadsec .downloadleft p {font-size: 16px;}
+    .downloadsec .downloadrgt {top:-10%;}
+    .footersec ul.footernav li+li{margin-left: 30px;}
+    .playsec ul{margin-left: -3%;}
+    .playsec ul li{width: 30.33%; margin-left: 3%;}
+}
+@media only screen and ( max-width: 640px ) {
+}
+@media only screen and ( max-width: 600px ) {
+}
+@media only screen and ( max-width: 568px ) {
+}
+@media only screen and ( max-width: 480px ) {
+    .container{width: 90%;}
+    .banner h2 {font-size: 38px;}
+    .banner p {font-size: 16px; margin-top: 10px;}
+    .banner .Downloadbtn a{font-size: 16px; padding: 10px 30px;}
+    .banner .bannerimg {margin-top: 30px;}
+    .about .aboutleft {width: 100%; box-sizing: border-box; padding: 20px;}
+    .about .aboutleft p {font-size: 16px; margin-top: 15px; line-height: normal;}
+    .about .aboutleft .readbtn {margin-top: 110px;}
+    .about .aboutrgt{top: 63%;}
+    .form h3 {font-size: 26px;}
+    .form .htpform h4 {font-size: 20px;}
+    .form .htpform ul li input{font-size: 16px; padding: 10px;}
+    .form .htpform .loginbtn a {font-size: 16px;}
+    .form .htpform ul.formrgt li{font-size: 15px;}
+    .playsec h3 {font-size: 20px;}
+    .playsec p {width: 100%; margin: 30px 0; font-size: 15px;}
+    .playsec ul li a {font-size: 15px; padding:10px 15px;}
+    .downloadsec .downloadleft{width: 100%;}
+    .downloadsec .downloadrgt {top: 36%; left: 50%; transform: translateX(-50%);}
+    .downloadsec .downloadleft ul{margin-top:170px;}
+    .downloadsec .downloadleft ul li {width: 30%;}
+    .footersec ul.footernav li+li{margin-left: 15px;}
+    .footersec ul.footernav li a {letter-spacing: 0; font-size: 12px;}
+    .footersec h3::before, .footersec ul.footerform {width: 70%;}
+    .footerbotm p{font-size: 16px;}
+    .footerbotm p span{display: block;}
+}
+@media only screen and ( max-width: 414px ) {
+    .downloadsec .downloadrgt{top: 44%;}
+}
+@media only screen and ( max-width: 384px ) {
+    .headertop .logo a{font-size: 20px;}
+    .banner h2{font-size: 28px;}
+    .banner p {font-size: 14px;}
+    .banner .Downloadbtn a{font-size: 14px; padding: 10px 20px;}
+    .form h3,.form .htpform ul.formrgt li::before{font-size: 20px;}
+    .form .htpform{padding: 20px;}
+    .form .htpform ul.formrgt li {font-size: 14px; margin-top: 20px; padding-left: 30px;}
+    .playsec ul li a { font-size: 13px; padding: 10px 10px; letter-spacing: 0;}
+    .downloadsec .downloadleft ul li {width: 40%;}
+    .footersec h2 {font-size: 28px;}
+    .footersec h3 {font-size: 18px;}
+    .footersec ul.footernav{margin-top: 20px;}
+    .footersec ul.footernav li {width: 50%; margin-top: 10px;}
+    .footersec ul.footernav li+li{margin-left: 0;}
+    .footersec ul.footernav{margin-top: 20px;}
+    .footerbotm p{font-size: 14px;}
+}
+@media only screen and ( max-width: 375px ) {
+}
+@media only screen and ( max-width: 360px ) {
+    .downloadsec .downloadrgt {width: 62%; top: 46%;}
+}
+@media only screen and ( max-width: 320px ) {
+
+}
